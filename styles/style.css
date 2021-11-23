@@ -25,14 +25,6 @@
   height: 32px;
 }
 
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  background-image: url("../images/logo_place_header.svg");
-  z-index: 2;
-}
-
 .header__title {
   width: 730px;
   z-index: 2;
@@ -66,6 +58,14 @@
   right: 0;
 }
 
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  background-image: url("../images/logo_place_header.svg");
+  z-index: 2;
+}
+
 .header__title_text {
   font-size: 102px;
   line-height: 96px;
@@ -76,8 +76,8 @@
   position: absolute;
   left: 64px;
   bottom: 30px;
-  font-size: 18px;
   line-height: 25px;
+  font-size: 18px;
   font-weight: normal;
 }
 
@@ -92,17 +92,17 @@
 }
 
 .two-columns {
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
   width: 80%;
 }
 
 .two-columns__brief {
   margin: 0;
   width: 175px;
-  font-size: 18px;
   line-height: 1.2;
+  font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
 }
@@ -114,8 +114,8 @@
 .two-columns__paragraph {
   margin: 0;
   padding-bottom: 30px;
-  font-size: 24px;
   line-height: 34px;
+  font-size: 24px;
   font-weight: normal;
 }
 
@@ -324,7 +324,6 @@
 /*---Стили для секции footer---*/
 .footer {
   background-color: #1f1f1f;
-  min-width: 350px;
 }
 
 .footer__columns {
@@ -332,10 +331,56 @@
   padding-top: 60px;
   padding-bottom: 40px;
   display: flex;
-  flex-basis: 711px;
+  justify-content: space-between;
   width: 90%;
+  min-height: 350px;
 }
 
 .footer__column-link {
   display: block;
+}
+
+.footer__author {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+
+.footer__column-heading {
+  margin: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+
+.footer__column-links {
+  margin-top: 20px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
