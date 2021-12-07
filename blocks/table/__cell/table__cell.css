@@ -1,0 +1,9 @@
+.table__cell {
+  margin-top: 60px;
+  list-style: none;
+  width: 250px;
+}
+
+.table__cell:last-child {
+  margin-bottom: 0;
+}
