@@ -1,4 +1,4 @@
-<h1 align="center">How To Learn Project</h1>
+<h1 align="center">How To Learn</h1>
 
 <h2 align="center">Yandex Project</h1>
 
