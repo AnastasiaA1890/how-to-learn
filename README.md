@@ -22,3 +22,8 @@
 
 ## Демо сайта
 
+<p align="center">
+
+<img src="https://i.postimg.cc/9fmNJkb7/Group.jpg" >
+  
+</p>
