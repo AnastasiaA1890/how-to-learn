@@ -1,5 +1,12 @@
 .resources__logo {
   width: 270px;
   height: 38px;
-  background: center;
+  text-align: center;
+  list-style-type: none;
+  transition: transform 0.4s ease-out;
+}
+
+.resources__logo:hover {
+  transform: translate(0, 5px);
+
 }
