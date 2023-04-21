@@ -8,22 +8,10 @@
   
 </p>
   
-## Описание
+## Description
 
-Данный проект реализован в рамках обучения программы "Веб разработчик" Яндекса.  
-Сайт реализован на HTML5 и CSS3. Примененные технологии:  
-* гибкая система раскладки блоков Flex
-* технология animation
-* технология transform
-
-## План по доработке
-
-Планируется добавить форму отправки для обратной связи
-
-## Демо сайта
-
-<p align="center">
-
-<img src="https://i.postimg.cc/9fmNJkb7/Group.jpg" >
-  
-</p>
+This project was implemented as part of the Yandex Web Developer training program.  
+The site is implemented in HTML5 and CSS3. Applied technologies:  
+* flexible block layout 
+* animation technology
+* transform technology
